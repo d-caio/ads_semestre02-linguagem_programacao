@@ -4,7 +4,7 @@ PROGRAMADOR: Caio Dias (d-caio).
 DATA: 07/03/2026
 */
 
-public class Main {
+public class Lote1Ex19ModProc {
     private static double num1, num2, maior, menor;
 
     public static void main(String[] args) {

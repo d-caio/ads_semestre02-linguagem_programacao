@@ -5,10 +5,9 @@ DATA: 05/03/2026
 */
 
 import java.util.*;
-import javax.swing.*;
 import java.text.*;
 
-public class Main {
+public class Lote1Ex18ModProc {
     private static int num1, num2;
 
     private static final int MAX_TRIES = 5;

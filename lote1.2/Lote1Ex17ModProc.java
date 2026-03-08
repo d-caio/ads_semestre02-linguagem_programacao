@@ -8,7 +8,7 @@ import javax.swing.*;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Main {
+public class Lote1Ex17ModProc {
     private static final double KM_L = 12;
 
     private static final int MAX_TRIES = 5;
