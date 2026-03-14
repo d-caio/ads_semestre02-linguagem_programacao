@@ -50,20 +50,8 @@ abstract class ManipulacaoDeVetoresNumericos<T extends Number> implements Manipu
             subscrito--;
         }
 
-        if (classeDoVetor.equals(Byte.class))
-            return classeDoVetor.cast((byte) somatorio);
-
-        if (classeDoVetor.equals(Short.class))
-            return classeDoVetor.cast((short) somatorio);
-
         if (classeDoVetor.equals(Integer.class))
             return classeDoVetor.cast((int) somatorio);
-
-        if (classeDoVetor.equals(Long.class))
-            return classeDoVetor.cast((long) somatorio);
-
-        if (classeDoVetor.equals(Float.class))
-            return classeDoVetor.cast((float) somatorio);
 
         return classeDoVetor.cast(somatorio);
     }
