@@ -4,7 +4,7 @@ OBJETIVO: Criar e carregar uma matriz [4][3] inteiro com quantidade de produtos 
         b. A quantidade de produtos vendidos por semana;
         c. O total de produtos vendidos no mês.
 PROGRAMADOR: Caio Dias (d-caio).
-DATA: 12/03/2026
+DATA: 14/03/2026
 */
 
 package lote2;

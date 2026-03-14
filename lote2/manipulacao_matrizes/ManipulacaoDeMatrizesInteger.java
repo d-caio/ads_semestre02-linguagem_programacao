@@ -17,6 +17,20 @@ public class ManipulacaoDeMatrizesInteger extends ManipulacaoDeMatrizesNumericas
         }
     }
 
+    public ManipulacaoDeMatrizesInteger(int numDeLinhas, int numDeColunas, int vlrMinDosItens, int vlrMaxDosItens, int base) {
+        super(Integer.class, numDeLinhas, numDeColunas);
+
+        Integer[][] matriz = getMatriz();
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                Integer item = (i == j) ? Math.powExact(base, i) : ThreadLocalRandom.current().nextInt(vlrMinDosItens, vlrMaxDosItens + 1);
+
+                adicionarItem(i, j, item);
+            }
+        }        
+    }
+
     @Override
     public Integer[] SomaVetorialDaMatriz(int indiceDeReferencia, int indiceIterador, boolean isLinha) {
         Integer[][] matriz = getMatriz();
